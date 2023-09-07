@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register page</title>
+    <link rel="stylesheet" href="login.css" />
+    <!-- <link rel="stylesheet" href="../copyCSS.css"> -->
+    <script defer src="login.js "></script>
+  </head>
+  <body>
+    <!-- --------------------------------------------- register section ------------------------------- -->
+
+    <section class="registerCantainer">
+      <div id="app" data-v-app="">
+        <div class="register" data-v-f7c41c52="">
+          <p class="foottitle" data-v-f7c41c52="">Sign up</p>
+          <p class="welcomei" data-v-f7c41c52="">
+            You are welcome to use Manchester City APP, we will give you a
+            sign-in gift every day.
+          </p>
+
+          <!-- --------------------------------------------- form section ------------------------------- -->
+          <section>
+            <form>
+              <div class="container" data-v-f7c41c52="">
+                <!-- --------------------------------------------- number filed ------------------------------- -->
+                <div class="phonei" data-v-f7c41c52="">
+                  <p data-v-f7c41c52="">Phone</p>
+                </div>
+                <div class="van-cell van-field input-box" data-v-f7c41c52="">
+                  <div class="van-field__left-icon">
+                    <p data-v-f7c41c52="">+91</p>
+                  </div>
+                  <!---->
+                  <div
+                    class="van-cell__value van-cell__value--alone van-field__value"
+                  >
+                    <div class="van-field__body">
+                      <input
+                        type="number"
+                        inputmode="numeric"
+                        placeholder="Please enter phone number"
+                        class="num"
+                      /><!----><!----><!---->
+                    </div>
+                    <!----><!---->
+                  </div>
+                  <!----><!---->
+                </div>
+
+                <!-- --------------------------------------------- email filed ------------------------------- -->
+                <div class="phonei" data-v-f7c41c52="">
+                  <p data-v-f7c41c52="">Email</p>
+                </div>
+                <div class="van-cell van-field input-box" data-v-f7c41c52="">
+                  <!----><!---->
+                  <div
+                    class="van-cell__value van-cell__value--alone van-field__value"
+                  >
+                    <div class="van-field__body">
+                      <input
+                        type="email"
+                        placeholder="Please enter email"
+                        class="email"
+                      /><!---->
+                      <div class="van-field__right-icon"></div>
+                      <!---->
+                    </div>
+                    <!----><!---->
+                  </div>
+                  <!----><!---->
+                </div>
+
+                <!-- --------------------------------------------- password filed ------------------------------- -->
+                <div class="phonei" data-v-f7c41c52="">
+                  <p data-v-f7c41c52="">Password</p>
+                </div>
+                <div class="van-cell van-field input-box" data-v-f7c41c52="">
+                  <!----><!---->
+                  <div
+                    class="van-cell__value van-cell__value--alone van-field__value"
+                  >
+                    <div class="van-field__body">
+                      <input
+                        type="password"
+                        placeholder="Please enter password"
+                        class="password"
+                      /><!---->
+                      <div class="van-field__right-icon">
+                        <img
+                          class="imgeye"
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAABLxJREFUWEftl1moVmUUhp+3icoigmYyGswsNIigTtKkDVY2URQlYV1ketNAQRJ1oY0kBBHN0YVRYdFNaaNkZophc6nZoA0eK9Omi0a0Fe9p/Yd99r/Pv//TOYEX/3d1hr3X93zre9e71hZb+NIWzkcHcLA31MlgJ4ODzUDV+xGxN/A4ME3SZ632GBINRsT2wB7ADsBWwO/ABkm/ljdPuAXAKGCepLOGFDAitgNOAE4CjgYOA3aHJssKYCPwNjBJ0s8luPcdQ9KPQwIYEYcCVwIXAbuWgm4CfgCcMf+8DbATsDNwgaTnS3AfJJzfablqrzgiDgDu8EZ5fc6MN3gRWAp8CKyV9HfFdW4taXMJ7iNgvKSNETFC0uf/KYMRYfhrgFuBHYHfgEeBByR9XHfyxv8jYi/gtdTc8oTbEBHTgduBh4DrJFm3TasygxGxC/AEMBFwxh4DbpD0bbtgfq4EtyLhvs//TUtAy8U3crakr8vxmwAjYh/gJWCMKxG4TNILdWARYb0Nl7SyAs4ZHydpfTFOROwLPAkcB/jwp0jyQXpXH8A88evASMAbTZT0ZSu43MQaPR04R9KSUuZWJdx3/XjitsAjwKWAs3u8pE8az/YCRoSrbiFwZKb8ZAu5Bs5Znp8Ve6akhQlnn3PVeyNnrqU0Uu/327iBL4AuST1SKAI+BVyYD4yVVHnigvhtyr4OG3QVnDvEiZK+qZNHSsIsc5LBifJ1b+oBjIipwINZqcdIsnW0XBFxFXBbymBRKXO2DsOti4hxzrCkuW3E9KGXAEcAMyXNUETsD9ibfMVTJT1cFygP9Swwq6C5xrWuTrjujG1rWSzptDbjjgDezbbZZcDnAPfD+ZJObSdIAo6U9Gkpc2sSbm2hkq2/bknDBxD7auBuYJkBnwHOBxaloJs6Qn+BS3AWtwviq4JODwSc0fWSbNhtrYh4OjvXPQa079lSbM43SbKualcJzlDWXB9LiogpgCWzVNLY2qD/1sOkbBI27TGNIpkMzAY2p6O3NOYSnAMZzhnsXRGxJ/CWzRu4UZLbWl3h2ZreBIYBEyS9WrQZAxr0l7yq96qileCsNcOtiYhhnv9yHDsDuAvwFbt7jPK41YouD+QKPgiYIWmmny8CmvqNLHG3OE8crsBiVqyjRrV2J9zqiDgKeAVwV/Dw6qHVy4e1Ry6ugbOX2vAPB+zHF0vyDNB3yEw9ulh8ip+AcyX5d2vDV2Y4D6jrEq5nVIoIt6lrcwP/yTPhPGC6K70G7hDAHnkwYGmdJ+nPxjtVw4Ib+Mv5whRJs0tw7gyu1qaNc6jdDVguyQes09wlwL1ZoK7cyUW4pgw2ouW4NTpNuJg5e5rhept5HUQ/OnYPnwXYvF2YtwA3N661+E7LibqUOfdmw62KiJ5JeSBwEWF9TgCuyDnTOvUtXC7J2q9c/QKW4FyJLpqVEWFTd8W/k5bgvm3/c3Yb3yTuqb7q/VKzXdZsXqVBHO9O4D5Jf7U6aCvA6zOIxx7DrYgIb+pqdTMf6HLhuJp9uDmS/mgnQN0Ve2JZUGE3NtTxwLHAaMCF5YnaEN7Y3xc+mDuMu9Qyz5p1n5hVwLVfde2c8v98pgM42Ox2MtjJ4GAzMNj3/wEmwwjW+de8gQAAAABJRU5ErkJggg=="
+                          alt=""
+                          data-v-f7c41c52=""
+                        />
+                      </div>
+                      <!---->
+                    </div>
+                    <!----><!---->
+                  </div>
+                  <!----><!---->
+                </div>
+
+                <!-- --------------------------------------------- verification code ------------------------------- -->
+                <div class="phonei" data-v-f7c41c52="">
+                  <p data-v-f7c41c52="">Verification code</p>
+                </div>
+                <div class="second" data-v-f7c41c52="">
+                  <div class="van-cell van-field input-box" data-v-f7c41c52="">
+                    <!----><!---->
+                    <div
+                      class="van-cell__value van-cell__value--alone van-field__value"
+                    >
+                      <div class="van-field__body">
+                        <input
+                          type="number"
+                          placeholder="Please send verification code"
+                          class="verification"
+                        /><!---->
+                        <div class="van-field__right-icon">
+                          <button type="button">
+                            <div class="van-button__content">
+                              <!----><span class="van-button__text">Send</span
+                              ><!---->
+                            </div>
+                          </button>
+                        </div>
+                        <!---->
+                      </div>
+                      <!----><!---->
+                    </div>
+                    <!----><!---->
+                  </div>
+                </div>
+
+                <!-- --------------------------------------------- invitaton code ------------------------------- -->
+                <div class="phonei" data-v-f7c41c52="">
+                  <p data-v-f7c41c52="">Invitation code</p>
+                </div>
+                <div class="van-cell van-field input-box" data-v-f7c41c52="">
+                  <!----><!---->
+                  <div
+                    class="van-cell__value van-cell__value--alone van-field__value"
+                  >
+                    <div class="van-field__body">
+                      <input
+                        type="text"
+                        id="van-field-6-input"
+                        class="invitation"
+                        placeholder="Please enter the invitation code"
+                      /><!----><!----><!---->
+                    </div>
+                    <!----><!---->
+                  </div>
+                  <!----><!---->
+                </div>
+
+                <!-- --------------------------------------------- register and login buttons ------------------------------- -->
+                <button class="logbtn registerbtn" data-v-f7c41c52="">
+                  Register
+                </button>
+                <button class="logbtn loginregi" data-v-f7c41c52="">
+                  <a href="login.html">Log in</a>
+                </button>
+
+                <!-- --------------------------------------------- terms and conditions div ------------------------------- -->
+                <div class="iuseragree" data-v-f7c41c52="">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAABDVJREFUWEfNmX9MlVUYxz/nCoG00DJbZpnmH9qmWEv7ga6EVf6BWluawcBNWkOycHNDu+JaVEpMmwtTjHTKaiGTlamJ/YEjCraarLB/0vzRZqkl2UotMLqnPe9977t7L5f7/vDq3vMf932e7/N5z3nP8zznoPAwtNYBYDqQDzwATALGADeZcheBs8BRoBs4BBxWSoXchlNuHLTWY4FlQDFwlxtf4DTwIbBZKfWLU19HgFrrUcDrwPNAhlPxIez6ge3Aq0qp3+20bAG11ouAd4Fb7cRcPu8FXlJKNSfzGxJQa50G1AFLAdsXcQkXMdfAVqBCKTWQSCNhYK31cGA3UOAxsFu3z4CFSql/4h0HAZozt+c6wkWYBPLp+JlMBLgFKHc7BSmyr1dKvRitFQNoboima/jN2b2HfJOF0RvHAjRTyQ/XYLfaQcU/l909OZKCogE3AzHT61Y5hfZblFJSEMLpw6wQJ1KQhB0xhrTmo+/aDdui+2YTUIO2giTziVJxIoDrgKAj9RQYLd/bQF3XPkPpg0UrKL4/L5FqjVJqtTIL/08eaqsn1LfaWwgebLR8kwBK7R4vgA8CX3uK5tKpsfsQS3ZvRLaqjIU5s9hVWElASXOUcDwkgK8ANS5juTZvPdrN/MY3GAj9Z/jm3ZNDa+lrZKSlJ9MKCqCUtAWuI7pw+Ob0MfLfr+LylT7Da9qYCXxRVsOIzBvtVFoE8AgwNZmlCK9q3WmYrJuzmOzMLDth6/mPvWeYWb+S85f/NH4bf/NtdJav547sW5xofC+A5+2S86au/VTsfc8QzJ+Yw4Eltktj2J67+Ae59ZWcuvCr8feorGw6y2uZNPpOJ3Bi0yuAMu9Jm9C24z08vm2NJSofd9NzlQwLDPlx81ff38xuCPLtmZOGX1Z6Bm0vrOXhcXI6cDz6HQGKXHx6eDl3Lu/ML0vYKPYP/EvBzmrkxWSkBYaxZ3EVBZNnOCYzDQ1A2yWOqC7f10BdZzjBylg7p4TVec/GBA3pEMW73qapp8P6ffuCCkqnP+EWzlpi200SUZbgRU0baD7y5ZDBV+zfxsavPrWev/lkCVX5sS/hgtTYJK7SjLF8O6ppOxFZvgCflKxh7r0z2NDxMZUHdljxlz1SwKanll7NecFIM64TdaINUDFzHrXtLVaVeGZKLs1Fq5JuJAczaSRqT6VOUojkt5MXzg2K8+iEKXxeWk1m+g0OGJKaGKVOcoWnZkGS8KytK/ntUjgJy5h6+910lNUycrhtlbCDDzcLYqW19txuHf75OHkNQS5d6WPcyNF0la9n7Ag551/1CLdbJqBcaXhuWHvOnuLgsW4Kpz1mQKZgxDasJqR/W34TUNbFv4cmE1LuYfx57Ix8N1pr/x7czVmUSyP/Xn2YkP69PIpaav9ev0XnMd9eYMZB+vcKOA7Un5fo8aXrev4b4n9qU6guGuHBGwAAAABJRU5ErkJggg=="
+                    alt=""
+                    data-v-f7c41c52=""
+                  />
+                  <p data-v-f7c41c52="">
+                    I am an adult, I have read and accept the
+                    <span data-v-f7c41c52="">Terms of Service</span> and
+                    <span data-v-f7c41c52="">Privacy Policy</span>
+                  </p>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+        <!---->
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
