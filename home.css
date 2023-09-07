@@ -39,7 +39,7 @@ body {
 .homeHeader .top-box .leftlogo{
   width: 50px;
   height: 50px;  
-  background: url(/elephant_Football/mainLogo.png) center;
+  background: url(mainLogo.png) center;
   background-size: cover;
 }
 
@@ -180,7 +180,7 @@ path {
 .checkBoxCantainer .checkbox[data-v-7afa3138] {
     width: 92vw;
     height: 22.666667vw;
-    background: url(/elephant_Football/homePage/check.png) center;
+    background: url(check.png) center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 3.333333vw;
@@ -652,7 +652,7 @@ img {
 .vipDiv .checkbox[data-v-613a8d0e] {
     width: 92vw;
     height: 22.133333vw;
-    background: url(/elephant_Football/vip_page/xyz.png) no-repeat;
+    background: url(xyz.png) no-repeat;
     background-size: cover;
     margin: 2.666667vw auto 2.666667vw;
     padding: 1.6vw 2.666667vw;
@@ -688,7 +688,7 @@ img {
 .vipDiv .vipB .innearVip {
     width: 94.666667vw;
     height: 87.466667vw;
-    background: url(/elephant_Football/vip_page/innearVip.png);
+    background: url(innearVip.png);
     background-size: cover;
     margin: 1.333333vw auto 0;
     color: white;
@@ -700,7 +700,7 @@ img {
 }
 
 .vipDiv .vipB .innearVip .leftVip {
-    background: url(/elephant_Football/vip_page/side_vip_left.png);
+    background: url(side_vip_left.png);
     width: 21.866667vw;
     height: 15.2vw;
     background-size: cover;
@@ -719,7 +719,7 @@ img {
 .rightVip {
     width: 63.066667vw;
     height: 15.2vw;
-    background: url(/elephant_Football/vip_page/side_vip.png) no-repeat;
+    background: url(side_vip.png) no-repeat;
     background-size: cover;
     text-align: right;
     padding: 1.6vw 1.6vw 1.6vw 7.333333vw;
