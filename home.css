@@ -26,6 +26,10 @@ body {
     position: relative;
     padding: 0 0 20vw;
 }
+.Homei{
+    min-height:100vh;
+    overflow-y:scroll;
+}
 
 .homeHeader{
     height: 9vh;
